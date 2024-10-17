@@ -1,0 +1,205 @@
+/* COMMON CSS STARTS HERE */
+*{
+  margin: 0;
+  padding: O;
+box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+} 
+ul,ol{
+  list-style: none;
+}
+body{
+  font-family:Poppins ;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  max-width: 1240px;
+  margin: auto; 
+
+}
+/* COMMON CSS ENDS HERE */
+.Button{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  background-color: #b88e2f;
+  padding: 12px 36px;
+  display: inline-block;
+  text-transform:uppercase;
+
+
+}
+.img{
+  max-width: 100%;
+  display: block;
+}
+nav  .row{
+  align-items: center;
+}nav  .quickMenu{ 
+  width: 30%;
+}
+nav   .menu{
+  width: 45%;
+}
+nav   .logo{
+  width: 25%;
+}
+nav    .menu ul{
+  display: flex;
+  justify-content: center;
+}
+nav  .menu ul li {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 38px 37.5px;
+  display: inline-block;
+}
+nav   .quickMenu ul{
+  justify-content: end;
+}
+nav   .quickMenu ul li a{
+  font-size: 20px;
+  color: black;
+ padding: 33px 22.5px;
+ display: inline-block;
+}
+#banner{
+  background-image: url(../images/banner.png);
+  height: 716px;
+  background-position:center;
+  background-size: cover;
+  padding-top: 157px;
+  margin-left: 120px;
+  margin-right: 100px;
+
+}
+.bannerCnt{
+  width: 643px;
+  background-color: #fff3e3;
+  padding: 62px 43px 37px;
+  margin-left: auto;
+  margin-right: 58px;
+  border-radius: 10px;
+}
+.bannerCnt h2{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.19em;
+  color: #333;
+}
+.bannerCnt h1{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size:52px;
+  line-height: 65px
+  margin: 4px 0 17px;
+  color: #B88E2F;
+
+
+}
+.bannerCnt p{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #333333;
+  margin-bottom: 46px;
+}
+#bannerCnt a{
+  padding: 25px 72px;
+  text-transform: uppercase;
+}
+#category{
+  margin: 52px 0 56px;
+ text-align: center;
+}
+#category  .heading h2{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 32px;
+
+}
+#category  .heading p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+}
+.categoryCard{
+  width: 33.33%;
+  margin-top: 62px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+.navberCnt{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom:48px ;
+  
+}
+#products{
+margin-bottom: 69px;
+}
+#product{
+ width: 25%;
+margin: 0 1rem;
+  
+}
+.product .productImage {
+  position: relative;
+}
+.product  .productImage  .discount{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  font-weight: 500;
+  background: #E97171;
+  color: white;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  top: 24px;
+  right: 24px;
+}
+.product  .product1{
+  padding: 16px 20px 30px;
+  background-color: #f4f5f7;
+}
+.product  .product1 h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3a3a3a;
+}
+.product  .product1 p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3a3a3a;
+  margin: 8px 0;
+}
+.product .product1 h4 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3a3a3a;
+}
